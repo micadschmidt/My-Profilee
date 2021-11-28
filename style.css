@@ -1,0 +1,92 @@
+body {
+	background-color: #ffe8d6;
+	font-family: Montserrat, sans-serif;
+	line-height: 1.6;
+	text-align: center;
+	text-decoration: none;
+}
+.button {
+	background-color: rgb(107, 112, 92);
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #ffe8d6;
+}
+
+.img-circle {
+	border-radius: 10px;
+}
+
+.card-white {
+    margin-bottom: 20px;
+    background: rgb(203 153 126 / 20%);
+    padding: 30px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgb(50 50 50 / 58%);
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background: none;
+	box-shadow: none;
+}
+
+h1 {
+	font-family: montserrat, bold;
+	text-shadow: none;
+	color: rgb(107, 112, 92);
+}
+p {
+	text-justify: center;
+	letter-spacing: 10 px;
+	font-weight: 100, bold;
+	font-size: 25 px;
+	color: rgb(77 52 52); 
+}
+
+a {
+	font-size: 50 px;
+	text-decoration: none;
+	color: rgb(107, 112, 92);
+	font-weight: 900;
+
+}
+
+a:hover {
+	color: rgb(203, 153, 126);
+
+}
+h3, ul {
+	text-align: justify;
+}
+.list-inline > li {
+	display: inline;
+	padding: 0px 20px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 50px;
+}
+#introduction p {
+	padding-bottom: 20px;
+}
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
